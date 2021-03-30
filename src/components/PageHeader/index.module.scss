@@ -1,0 +1,19 @@
+@import '~@fpxfd/next/variables.scss';
+
+.Title {
+  display: block;
+  // color: $color-text1-4;
+  // font-weight: $font-weight-3;
+  // font-size: $font-size-title;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #666;
+  font-weight: normal;
+}
+
+.Description {
+  display: block;
+  color: $color-text1-3;
+  font-size: $font-size-body-2;
+  line-height: 1.5;
+}

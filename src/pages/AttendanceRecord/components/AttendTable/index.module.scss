@@ -1,0 +1,44 @@
+.container {
+  margin-top: 20px;
+}
+.actionBar {
+  margin-bottom: 10px;
+}
+
+.buttonGroup {
+  button {
+    margin-right: 10px;
+  }
+}
+
+.handleBtn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 64px;
+}
+
+.uploadLoading {
+  width: 100%;
+}
+
+.orgCode {
+  :global .next-input {
+    overflow: overlay;
+    height: 34px;
+    padding-right: 10px;
+  }
+}
+
+.searchform {
+  :global .next-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.blockHidden{
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  cursor: pointer;
+}
